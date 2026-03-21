@@ -6,33 +6,26 @@ A fully functional AI-Powered Task & Knowledge Management System built with Fast
 
 
 
-🏗️ System Architecture
-┌─────────────────────────────────────────┐
-│           FastAPI Application            │
-├──────────┬──────────┬────────┬──────────┤
-│   Auth   │  Tasks   │  Docs  │  Search  │
-├──────────┴──────────┴────────┴──────────┤
-│              MySQL Database              │
-│  users | roles | tasks | documents |    │
-│              activity_logs              │
-├─────────────────────────────────────────┤
-│         FAISS Vector Database           │
-│   Sentence Transformers Embeddings      │
-└─────────────────────────────────────────┘
-
-
-
 Tech Stack:
 
-Language → Python 3.14,
-Framework → FastAPI,
-Database → MySQL 8.0,
-ORM → SQLAlchemy,
-Authentication → JWT (JSON Web Tokens),
-Password Hashing → Bcrypt (Passlib),
-AI Model → all-MiniLM-L6-v2 (Sentence Transformers),
-Vector Search → FAISS,
-Server → Uvicorn,
+Language → Python 3.14
+
+Framework → FastAPI
+
+Database → MySQL 8.0
+
+ORM → SQLAlchemy
+
+Authentication → JWT (JSON Web Tokens)
+
+Password Hashing → Bcrypt (Passlib)
+
+AI Model → all-MiniLM-L6-v2 (Sentence Transformers)
+
+Vector Search → FAISS
+
+Server → Uvicorn
+
 API Docs → Swagger UI (Auto-generated)
 
 
