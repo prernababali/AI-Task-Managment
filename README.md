@@ -2,6 +2,7 @@
 
 
 📌 Overview
+
 A fully functional AI-Powered Task & Knowledge Management System built with FastAPI and MySQL. The system allows Admins to upload documents and assign tasks, while Users can search documents using AI-powered semantic search (FAISS + Sentence Transformers) and complete their assigned tasks.
 
 
